@@ -1,0 +1,12 @@
+{
+    "workbench.colorCustomizations": {
+        "editor.selectionBackground": "#186677",
+        "editor.selectionHighlightBackground": "#186677",
+        "gitlens.trailingLineForegroundColor": "#d1983e",
+        "editorSuggestWidget.selectedBackground": "#617591",
+        "tab.activeBorderTop": "#d1983e",
+        "activityBar.background": "#312E08",
+        "titleBar.activeBackground": "#45410C",
+        "titleBar.activeForeground": "#FCFBED"
+    }
+}
