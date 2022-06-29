@@ -1,14 +1,19 @@
-<ds-header [title]="title" [addButtonText]="buttonText" (add)="add()"></ds-header>
+<ds-header class="flex flex-wrap justify-between w-full md:w-1/2" [title]="title" [addButtonText]="buttonText"
+  (add)="add()"></ds-header>
 
-<div
-*ngIf="isSearchSupported || isSortSupported"
-class="sort-filter-section flex">
+<div *ngIf="isSearchSupported || isSortSupported" class="sort-filter-section flex">
   <ds-search></ds-search>
   <ds-sort></ds-sort>
 </div>
 
-<ds-pagination></ds-pagination>
-<div class="content"
->
-Slot content here
+<ds-pagination>
+
+</ds-pagination>
+
+<ng-content></ng-content>
+
+<!--
+<div minimum-version="22.9.0" [version]="version">
+  create a minimum version directive
 </div>
+-->

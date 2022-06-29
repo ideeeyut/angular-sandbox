@@ -10,7 +10,7 @@ import { PaginationComponent } from './dashboard/pagination/pagination.component
 import { SearchComponent } from './dashboard/search/search.component';
 import { SortComponent } from './dashboard/sort/sort.component';
 import { HeaderComponent } from './dashboard/header/header.component';
-import { SpinnerButtonComponent } from './util/spinner-button/spinner-button.component';
+import { SpinnerButtonComponent } from './core/spinner-button/spinner-button.component';
 
 @NgModule({
   declarations: [
