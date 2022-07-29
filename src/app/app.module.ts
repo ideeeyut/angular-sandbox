@@ -11,6 +11,7 @@ import { SearchComponent } from './dashboard/search/search.component';
 import { SortComponent } from './dashboard/sort/sort.component';
 import { HeaderComponent } from './dashboard/header/header.component';
 import { SpinnerButtonComponent } from './core/spinner-button/spinner-button.component';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { SpinnerButtonComponent } from './core/spinner-button/spinner-button.com
     SortComponent,
     HeaderComponent,
     SpinnerButtonComponent,
+    TestComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, BrowserAnimationsModule],
   providers: [],
