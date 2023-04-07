@@ -19,5 +19,5 @@ jobs:
       - run: pwd ${{ github.workspace }}
       - name: Installing dependencies
         run: npm install
-      - run: ng test
+      - run: npx ng test
       - run: echo "🍏 This job's status is ${{ job.status }}."
